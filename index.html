@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="./Imagenes/general/JJ.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="main.js" defer></script>
+    <title>Mi Portofolio</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary py-3">
+            <div class="container-lg fs-3 px-5">
+                <a href="#inicio" class="navbar-brand align-center my_brand ">
+                    <img class="navbar-brand_logo w-100" src="./Imagenes/general/JJ.png" alt="">
+                </a>
+                <!-- toggle btn for mobile nav -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main-navbar"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-navbar">
+                    <ul class="navbar-nav g-2 fs-4">
+                        <li class="nav-item">
+                            <a href="#sobre_mi" class="nav-link d-xl-inline-block">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#formacion" class="nav-link">Formación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#proyectos" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#hobbies" class="nav-link d-lg-none d-xl-inline-block">Pasatiempos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link  d-lg-none d-xxl-inline-block">Contáctame</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link  d-none d-xxl-none  d-lg-inline-block"><i
+                                    class="bi bi-envelope-at"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- inicio -->
+    <main>
+        <section id="inicio" class="bg-primary-subtle pb-3">
+            <div class="container-lg mt-5 pt-3">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-4 col-lg-4 order-md-2">
+                        <img class="img-fluid rounded-circle border border-light-subtle"
+                            src="./Imagenes/general/foto-inicio.jpg" alt="mi_foto">
+                    </div>
+
+                    <div class="col-sm-12 col-md-8 col-lg-8 order-md-1">
+                        <h1 class="display-4 mb-4">¡Hola! Soy <span class="display-2 fw-bold text-primary">Junior
+                                Jusmé</span>.<br>Soy <span
+                                class="display-4 fw-bold text-primary rainbow-text">Desarrollador
+                                Frontend</span> y construyo sitios web que narran historias.</h1>
+                    </div>
+                </div>
+
+                <h3 class="col-xxl-8">Apasionado por el diseño responsivo y accesible, me aseguro que cada
+                    sitio web no solo se vea bien en cualquier dispositivo, sino que también sea fácil de usar
+                    para todos.</h3>
+
+                <div class="my-3 d-none d-md-block">
+                    <a href="https://github.com/JusmeJr93" class="text-decoration-none me-4 fs-4"
+                        target="_blank"><span>Github <i class="bi bi-arrow-up-right"></i></span></a>
+                    <a href="https://www.linkedin.com/in/junior-jusm%C3%A9-2b783012a/"
+                        class="text-decoration-none me-4 fs-4" target="_blank"><span>LinkedIn <i
+                                class="bi bi-arrow-up-right"></i></span></a>
+                    <a href="#" class="text-decoration-none  me-4 fs-4" target="_blank"><span>CV en Español<i
+                                class="bi bi-arrow-up-right"></i></span></a>
+                    <a href="#" class="text-decoration-none fs-4" target="_blank"><span>CV en Inglés<i
+                                class="bi bi-arrow-up-right"></i></span></a>
+                </div>
+                <div class="my-3 d-sm-block d-md-none">
+                    <a href="https://github.com/JusmeJr93" class="text-decoration-none me-4 fs-4" target="_blank"><i
+                            class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/junior-jusm%C3%A9-2b783012a/"
+                        class="text-decoration-none me-4 fs-4" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-decoration-none  me-4 fs-4" target="_blank"><span>CV-Esp</span></a>
+                    <a href="#" class="text-decoration-none fs-4" target="_blank"><span>CV-Ing</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- sobre mi -->
+        <section id="sobre_mi">
+            <div class="container-lg">
+                <h1 class="mb-3 text-center">Sobre mi</h1>
+                <div>
+                    <p class="lead">Ingeniero civil de formación, actualmente dedicado al <span
+                            class="fw-bold">desarrollo
+                            frontend</span>.
+                    </p>
+
+                    <p class="lead">Siempre he tenido una fascinación por el mundo de la tecnología y la informática.
+                        Por lo que
+                        empecé a programar como pasatiempo. Inmerso en el apasionante universo del desarrollo frontend,
+                        encontré
+                        mi verdadera vocación.
+                    </p>
+
+                    <p class="lead">Me empeño en fusionar mis habilidades técnicas con mi visión creativa, creando
+                        soluciones
+                        innovadoras en cada proyecto. Mi compromiso con el aprendizaje continuo me permite crecer tanto
+                        personal como profesionalmente.</p>
+                    <p class="lead">Ahora soy un constructor de experiencias digitales, emocionado de compartir mi viaje
+                        y contribuir
+                        al éxito de su equipo.</p>
+                </div>
+                <div class="d-flex justify-content-end me-5 pe-5"><img class="img-fluid firma"
+                        src="./Imagenes/general/firma.jpg" alt="mi_firma"></div>
+
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills" class="bg-primary-subtle">
+            <div class="container-lg">
+                <h1 class="mb-3 text-center">Skills</h1>
+                <div class="row flex-row justify-content-between row-gap-5 ms-5 align-items-end text-center">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <img class="img-fluid" src="./Imagenes/skills/html.svg" alt="HTML5 logo"
+                            style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">HTML 5</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <img class="img-fluid" src="./Imagenes/skills/css.svg" alt="CSS logo" style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">CSS3</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <img class="img-fluid" src="./Imagenes/skills/javascript.svg" alt="JavaScript logo"
+                            style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">JavaScript</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <img class="img-fluid" src="./Imagenes/skills/git.svg" alt="Git logo" style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">Git</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <img class="img-fluid" src="./Imagenes/skills/vscode.svg" alt="VS Code logo"
+                            style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">VS Code</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 justify-content-end">
+                        <img class="img-fluid" src="./Imagenes/skills/bootstrap.svg" alt="Bootstrap 5 logo"
+                            style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">Bootstrap 5</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 justify-content-end">
+                        <img class="img-fluid" src="./Imagenes/skills/react.svg" alt="React logo"
+                            style="max-width: 80px;">
+                        <p class="h5 fw-bold mt-2">React</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- formación -->
+        <section id="formacion">
+            <div class="container-lg">
+                <h1 class="mb-3 text-center">Formación académica</h1>
+                <div class="">
+                    <p class="lead">Aunque los detalles completos de mi formación académica se encuentran en mi CV, aquí
+                        ofrezco una visión
+                        general de mi trayectoria educativa centrada en el desarrollo frontend para la creación de
+                        experiencias
+                        web atractivas, innovadoras y funcionales. ¡Espero que esta sección te brinde una mejor
+                        comprensión de
+                        mi habilidades y experiencia!</p>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <dl>
+                            <dt>What is Programming</dt>
+                            <dd>Udacity (udacity.com)</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>HTML5 and CSS Fundamentals</dt>
+                            <dd>W3C (edx.org)</< /dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Responsive Web Design Certification</dt>
+                            <dd>freeCodeCamp (freecodecamp.org)</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>JavaScript Introduction</dt>
+                            <dd>W3C (edx.org)</dd>
+                            </dd>
+                        </dl>
+
+                        <dl>
+                            <dt>JavaScript Essentials 1&2</dt>
+                            <dd>Cisco Networking Academy (skillsforall.com)</dd>
+                        </dl>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6"">
+                        <dl>
+                            <dt>JavaScript and the DOM</dt>
+                            <dd>Udacity (udacity.com)</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Object-Oriented JavaScript</dt>
+                            <dd>Udacity (udacity.com)</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Version Control with Git</dt>
+                            <dd>Udacity (udacity.com)</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Formación Frontend con React</dt>
+                            <dd>Alura Latam (aluracursos.com)</dd>
+                        </dl>
+                        <!-- 
+                            <dl>
+                                <dt>The Ultimate React Course 2024</dt>
+                                <dd>Udemy (udemy.com)</dd>
+                            </dl>
+                            -->
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <!-- proyectos -->
+        <section id=" proyectos" class="bg-primary-subtle">
+                        <div class="container-lg">
+                            <h1 class="mb-3 text-center">Proyectos Destacados</h1>
+                            <p class="lead">Algunos de mis trabajos desarrollados con HTML, CSS, JavaScript y
+                                Bootstrap,
+                                que demuestran mi capacidad para crear interfaces atractivas, funcionales y responsivos.
+                                Cada
+                                proyecto refleja mi compromiso con el diseño efectivo y la experiencia del usuario
+                                optimizada.
+                                ¡Echa un vistazo!</p>
+
+                            <div class="d-flex justify-content-around flex-wrap row-gap-3">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/encriptador.PNG" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Encriptador de textos</h5>
+                                        <p class="card-text">Aplicación para encriptar y desencriptar textos, para
+                                            intercambiar
+                                            mensajes secretos.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="https://jusmejr93.github.io/Challenge-Encriptador/"
+                                                class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="https://github.com/JusmeJr93/Challenge-Encriptador"
+                                                class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/proyecto.jpg" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 2</h5>
+                                        <p class="card-text">Lorem ipsum dolor, sit amet consec adipisicing elit. Ipsum
+                                            vero
+                                            libero
+                                            debitis necessitatibus.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="" class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/proyecto.jpg" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 3</h5>
+                                        <p class="card-text">Lorem ipsum dolor, sit amet consec adipisicing elit. Ipsum
+                                            vero
+                                            libero
+                                            debitis necessitatibus.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="" class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/proyecto.jpg" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 4</h5>
+                                        <p class="card-text">Lorem ipsum dolor, sit amet consec adipisicing elit. Ipsum
+                                            vero
+                                            libero
+                                            debitis necessitatibus.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="" class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/proyecto.jpg" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 5</h5>
+                                        <p class="card-text">Lorem ipsum dolor, sit amet consec adipisicing elit. Ipsum
+                                            vero
+                                            libero
+                                            debitis necessitatibus.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="" class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 22rem;">
+                                    <img src="./Imagenes/proyectos/proyecto.jpg" class="card-img-top border-primary"
+                                        alt="..." style="height: 11rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 6</h5>
+                                        <p class="card-text">Lorem ipsum dolor, sit amet consec adipisicing elit. Ipsum
+                                            vero
+                                            libero
+                                            debitis necessitatibus.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="btn btn-outline-primary" target="_blank">Pruébalo</a>
+                                            <a href="" class="btn btn-outline-info" target="_blank">Repositorio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+        </section>
+
+        <!-- hobbies -->
+        <section id="hobbies">
+            <div class="container-lg">
+                <h1 class="mb-3 text-center">Pasatiempos</h1>
+                <p class="lead"> En mi día a día, mis hobbies son la clave de mi creatividad y la fuente
+                    de mi inspiración. Mis principales pasatiempos son los siguientes:</p>
+
+                <div class="accordion col-xxl-10" id="hobbies">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                data-bs-target="#hobbie-1" aria-expanded="true" aria-controls="hobbie-1"> Estilo de Vida
+                                Activo
+                            </button>
+                        </h2>
+                        <div id="hobbie-1" class="collapse accordion-collapse" aria-labelledby="heading-1">
+                            <div class="accordion-body row">
+                                <div class="d-none d-md-block col-md-2 "><img src="./Imagenes/hobbies/deportes.jpg"
+                                        alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-10 mt-2">
+                                    <p>Como parte integral de mi rutina diaria, me dedico a mantener un estilo de vida
+                                        activo y saludable. Con una combinación de entrenamiento con pesas, actividades
+                                        al aire libre como correr y senderismo, y deportes como baloncesto y boxeo,
+                                        para equilibrar mi bienestar físico y mental. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                data-bs-target="#hobbie-2" aria-expanded="true" aria-controls="hobbie-2"> Leer
+                            </button>
+                        </h2>
+                        <div id="hobbie-2" class="collapse accordion-collapse" aria-labelledby="heading-2">
+                            <div class="accordion-body row">
+                                <div class="d-none d-md-block col-md-2"><img src="./Imagenes/hobbies/leer.jpg" class=""
+                                        alt=""></div>
+                                <div class="col-sm-12 col-md-10 mt-2">
+                                    <p>Desde la infancia, la lectura ha sido una parte importante de mi vida, como
+                                        fuente inagotable de entretenimiento y conocimiento. <br>
+                                        Hoy en día, es una herramienta esencial para mi crecimiento personal y
+                                        profesional.
+                                        Leo una variedad de géneros, desde programación hasta autoayuda y psicología, lo
+                                        que enriquece mi perspectiva del mundo y me proporciona nuevas ideas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                data-bs-target="#hobbie-3" aria-expanded="true" aria-controls="hobbie-3"> Música y
+                                podcast
+                            </button>
+                        </h2>
+                        <div id="hobbie-3" class="collapse accordion-collapse" aria-labelledby="heading-3">
+                            <div class="accordion-body row">
+                                <div class="d-none d-md-block col-md-2"><img src="./Imagenes/hobbies/musica.jpg"
+                                        class="" alt=""></div>
+                                <div class="col-sm-12 col-md-10 mt-2">
+                                    <p>La música es una fuente constante de inspiración y motivación, y los podcasts me
+                                        mantienen actualizado en una variedad de temas,
+                                        desde tecnología hasta filosofía y emprendimiento. Esta diversidad de contenido
+                                        enriquece mi vida diaria y además influye en mi creatividad.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                data-bs-target="#hobbie-4" aria-expanded="true" aria-controls="hobbie-4"> Meditación Y
+                                Mindfullness
+                            </button>
+                        </h2>
+                        <div id="hobbie-4" class="collapse accordion-collapse" aria-labelledby="heading-4">
+                            <div class="accordion-body row">
+                                <div class="d-none d-md-block col-md-2"><img src="./Imagenes/hobbies/mindfullnes.png"
+                                        class="" alt=""></div>
+                                <div class="col-sm-12 col-md-10 mt-2">
+                                    <p>Dedico tiempo a la meditación y al mindfulness para mantener la claridad mental y
+                                        gestionar el estrés. Esta práctica me ayuda a mejorar mi concentración y a
+                                        encontrar equilibrio en mi vida personal y profesional.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contacto -->
+        <section id="contacto" class="bg-primary-subtle">
+            <div class="container-lg">
+                <h1 class="mb-3 text-center">Contáctame</h1>
+                <p class="lead col-xxl-10">Si tienes alguna pregunta, comentario o estás interesado en colaborar en un
+                    proyecto, no
+                    dudes en ponerte en contacto conmigo.</p>
+
+                <div class="row">
+                    <div class="col-xxl-10">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="correo"
+                                    placeholder="Ingrese su correo electrónico">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control  no-resize" id="mensaje" rows="3"
+                                    placeholder="Escriba su mensaje"></textarea>
+                            </div>
+                            <button class="btn btn-primary" title="Aún no está habilitado">Enviar</button>
+                            <!-- Luego agregar: type="submit"-->
+                        </form>
+                    </div>
+                    <div class="col-xxl-2 d-none d-xxl-inline-block">
+                        <a href="mailto:junior.jusme@gmail.com"><img src="./Imagenes/general/contacto.png"
+                                class="img-fluid" alt="mail-img"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="text-center px-5 py-3 footer_div">
+            <p class="mb-0">Proyecto desarrollado durante el programa Oracle Next Education | Alura Latam.</p>
+            <p class="mb-0">&copy;2024. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
