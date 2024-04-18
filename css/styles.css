@@ -101,6 +101,10 @@ section {
     resize: none;
 }
 
+.mail img:hover {
+    transform: scale(1.1);
+}
+
 /* footer */
 .footer_div {
     background: #2c3e50;
