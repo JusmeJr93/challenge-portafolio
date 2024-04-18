@@ -24,16 +24,15 @@ body {
     transition: color 0.3s ease-in-out;
 }
 
+/* Cambios a aplicar con el scroll */
 .bg-scroll {
     background-color: #2c3e50 !important;
     color: #fcf5f5 !important;
-
 }
 
 .bg-scroll .navbar-nav .nav-link,
 .bg-scroll .navbar-brand {
     color: #fcf5f5 !important;
-    /* Cambia el color de los enlaces y el brand en scroll */
 }
 
 .bg-scroll .navbar-brand_logo:hover {
@@ -41,16 +40,16 @@ body {
 }
 
 .bg-scroll .navbar-toggler {
-    color: #fcf5f5;
     border-color: #fcf5f5;
 }
 
+/* Para cambiar las barras del toggler */
 .bg-scroll .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fcf5f5' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .bg-scroll .navbar-nav .nav-link:hover {
-    color: rgb(77, 148, 11) !important;
+    color: rgba(13, 110, 253, 1) !important;
 }
 
 @media (min-width: 992px) {
@@ -66,7 +65,7 @@ body {
 /* home */
 #inicio a:hover {
     font-weight: bolder;
-    color: #0b1cb9;
+    color: #2c3e50;
 }
 
 /* main */
@@ -87,13 +86,10 @@ section {
     width: 10rem;
 }
 
-
-
 dt {
-
-    /* Opcional: para hacer que los términos sean más destacados */
-    margin-top: 10px;
-    /* Opcional: ajusta el margen superior según tu preferencia */
+    /* Para mantener la alineación en la 2da línea en dispositivos pequeños */
+    display: flex;
+    text-indent: -5px;
 }
 
 .card {
@@ -101,14 +97,11 @@ dt {
 }
 
 @media (max-width: 767px) {
-
-    /* Ajustar según los breakpoints de Bootstrap */
     .my-custom-center {
         display: flex;
         justify-content: center;
-        /* Centra horizontalmente el contenido flex */
         flex-wrap: wrap;
-        /* Asegura que los elementos pueden envolverse */
+        /* Asegurar que los elementos pueden envolverse */
     }
 }
 
@@ -123,7 +116,6 @@ dt {
 
 #hobbies .accordion-item .accordion-button {
     background-color: #f3f7f9 !important;
-    /* Cambia el color a tu preferencia */
 }
 
 .no-resize {
