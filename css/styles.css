@@ -6,10 +6,6 @@ body {
 }
 
 /* nav */
-.navbar-brand_logo:hover {
-    transform: scale(2);
-}
-
 .navbar-nav li a:hover {
     color: #0dcaf0;
 }
@@ -61,6 +57,10 @@ body {
     .bg-scroll {
         height: 70px;
     }
+
+    .navbar-brand_logo:hover {
+        transform: scale(2);
+    }
 }
 
 /* home */
@@ -85,6 +85,35 @@ section {
 
 .firma {
     width: 10rem;
+}
+
+
+
+dt {
+
+    /* Opcional: para hacer que los términos sean más destacados */
+    margin-top: 10px;
+    /* Opcional: ajusta el margen superior según tu preferencia */
+}
+
+.card {
+    width: 25rem;
+}
+
+@media (max-width: 767px) {
+
+    /* Ajustar según los breakpoints de Bootstrap */
+    .my-custom-center {
+        display: flex;
+        justify-content: center;
+        /* Centra horizontalmente el contenido flex */
+        flex-wrap: wrap;
+        /* Asegura que los elementos pueden envolverse */
+    }
+}
+
+.card-img-top {
+    height: 15rem;
 }
 
 #hobbies img {
